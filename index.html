@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <title>Climatic</title>
+</head>
+<body>
+    <form>
+        
+    </form>
+    <div class="container">
+        <div>
+            <input placeholder="Inform a city..." type="text" id="nameCity"/>
+            <button type="submit" onclick="getCity()"><img alt="seach" src="https://www.svgrepo.com/show/488200/find.svg" width="20" height="20"/></button>
+        </div>
+
+        <h3 id="titleCity">Weather in ...</h3>
+
+        <p id="temp">0°C</p>
+
+        <div class="container-infor">
+            <img id="conditionImg" alt="weather" src="https://openweathermap.org/img/wn/04n.png" width="40" height="40"/> 
+            <p id="conditionWeather"></p>
+        </div>
+
+        <p id="humidity">Humidity: 0%</p>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
